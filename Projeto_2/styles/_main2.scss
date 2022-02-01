@@ -1,0 +1,124 @@
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px; 
+    
+    &__main1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    &__title{
+        display: flex;
+        color: chocolate;
+    }
+    &__title1{
+        display: flex;
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+
+    &__main1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 100px;
+    &__phone1{
+        height: 400px;
+        margin-right: 200px;
+    }
+
+    }
+}
+.container1__main2{
+    display: flex;
+    flex-direction: row;
+}
+
+.container1__main2__img2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+ }
+
+ .container1__main2__phone2{
+     display: flex;
+     height: 400px;
+     flex-direction: row;
+ }
+
+.container1__main1__text{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.container1__main2__text{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-left: 800px;
+}
+
+.container1__main3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px;
+    min-width: 1200px;
+}
+
+.container1__main3__text{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+
+.container1__main3__img3{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .container1__main3__phone3{
+     display: flex;
+     height: 400px;
+     flex-direction: row;
+     margin-left: 900px;
+}
+
+.title{
+    display: flex;
+    font-size: 70px;
+    color: grey;
+    gap: 10px;
+}
+
+.title2{
+    display: flex;
+    font-size: 30px;
+    margin: 15px;
+    font-weight: bold;
+}
+// .background__img1{
+//     background-color: purple;
+//     margin-right: 200px;
+//     border-radius: 1000px;
+//     display: flex;
+//     position: relative;
+//     height: 300px;
+//     width: 300px;
+//     margin-right: 100px;
+// }
+
+// .background__img2{
+//     background-color: rgb(0, 70, 128);
+//     margin-right: 200px;
+//     border-radius: 1000px;
+//     display: flex;
+//     position: relative; 
+//     height: 200px; 
+//     width: 800px;
+// }

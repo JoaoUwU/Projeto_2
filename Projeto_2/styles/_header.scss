@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+.container__body{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(241, 218, 202);
+}
+
+.nav{
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:none;
+        padding: 15px;
+
+
+    &__links{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex end;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+        text-decoration: none;   
+    }
+    &__links a:link{
+        color: rgb(0, 0, 0);
+        text-decoration: none;   
+      }
+    &__button{
+        border: none;
+        text-decoration: none;
+        background-color: rgb(189, 78, 15);
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    &__button a:link{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+      }
+
+}
